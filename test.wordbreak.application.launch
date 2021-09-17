@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+    <booleanAttribute key="append.args" value="true"/>
+    <booleanAttribute key="askclear" value="true"/>
+    <booleanAttribute key="automaticAdd" value="true"/>
+    <booleanAttribute key="automaticValidate" value="true"/>
+    <stringAttribute key="bootstrap" value=""/>
+    <stringAttribute key="checked" value="[NONE]"/>
+    <booleanAttribute key="clearConfig" value="true"/>
+    <booleanAttribute key="clearws" value="false"/>
+    <booleanAttribute key="clearwslog" value="false"/>
+    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/test.wordbreak.application"/>
+    <booleanAttribute key="default" value="false"/>
+    <setAttribute key="deselected_workspace_bundles">
+        <setEntry value="com.arburg.atf.admin.arburg"/>
+        <setEntry value="com.arburg.atf.app"/>
+        <setEntry value="com.arburg.atf.device"/>
+        <setEntry value="com.arburg.atf.device.test"/>
+        <setEntry value="com.arburg.atf.device.ui"/>
+        <setEntry value="com.arburg.atf.devicewebservice"/>
+        <setEntry value="com.arburg.atf.help"/>
+        <setEntry value="com.arburg.atf.helpers"/>
+        <setEntry value="com.arburg.atf.mech"/>
+        <setEntry value="com.arburg.atf.model"/>
+        <setEntry value="com.arburg.atf.model.test"/>
+        <setEntry value="com.arburg.atf.model.ui"/>
+        <setEntry value="com.arburg.atf.model.ui.test"/>
+        <setEntry value="com.arburg.atf.model.web"/>
+        <setEntry value="com.arburg.atf.protocolgen"/>
+        <setEntry value="com.arburg.atf.report"/>
+        <setEntry value="com.arburg.atf.report.test"/>
+        <setEntry value="com.arburg.atf.resources"/>
+        <setEntry value="com.arburg.atf.search"/>
+        <setEntry value="com.arburg.atf.search.test"/>
+        <setEntry value="com.arburg.atf.search.ui"/>
+        <setEntry value="com.arburg.atf.security"/>
+        <setEntry value="com.arburg.atf.security.arburg"/>
+        <setEntry value="com.arburg.atf.security.standalone"/>
+        <setEntry value="com.arburg.atf.security.test"/>
+        <setEntry value="com.arburg.atf.services"/>
+        <setEntry value="com.arburg.atf.services.test"/>
+        <setEntry value="com.arburg.atf.storage"/>
+        <setEntry value="com.arburg.atf.txapp"/>
+        <setEntry value="com.arburg.atf.ui"/>
+        <setEntry value="com.arburg.birt.report.runtime"/>
+        <setEntry value="com.arburg.thoughtworks.xstream"/>
+        <setEntry value="com.arburg.util.logview"/>
+        <setEntry value="importedxstream"/>
+        <setEntry value="testJre11"/>
+    </setAttribute>
+    <booleanAttribute key="includeOptional" value="true"/>
+    <stringAttribute key="location" value="${workspace_loc}/../runtime-test.wordbreak.application"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+    <booleanAttribute key="pde.generated.config" value="false"/>
+    <stringAttribute key="pde.version" value="3.3"/>
+    <stringAttribute key="product" value="com.arburg.atf.app.product"/>
+    <setAttribute key="selected_target_bundles">
+        <setEntry value="com.ibm.icu@default:default"/>
+        <setEntry value="com.lowagie.text@default:default"/>
+        <setEntry value="javax.annotation@default:default"/>
+        <setEntry value="javax.inject@default:default"/>
+        <setEntry value="javax.servlet@default:default"/>
+        <setEntry value="javax.transaction@default:false"/>
+        <setEntry value="javax.xml@default:default"/>
+        <setEntry value="org.apache.batik.anim@default:default"/>
+        <setEntry value="org.apache.batik.bridge@default:default"/>
+        <setEntry value="org.apache.batik.codec@default:default"/>
+        <setEntry value="org.apache.batik.constants*1.9.1.v20180227-1645@default:default"/>
+        <setEntry value="org.apache.batik.css*1.9.1.v20181015-1528@default:default"/>
+        <setEntry value="org.apache.batik.dom.svg@default:default"/>
+        <setEntry value="org.apache.batik.dom@default:default"/>
+        <setEntry value="org.apache.batik.ext.awt@default:default"/>
+        <setEntry value="org.apache.batik.gvt@default:default"/>
+        <setEntry value="org.apache.batik.i18n*1.9.1.v20180227-1645@default:default"/>
+        <setEntry value="org.apache.batik.parser@default:default"/>
+        <setEntry value="org.apache.batik.script@default:default"/>
+        <setEntry value="org.apache.batik.svggen@default:default"/>
+        <setEntry value="org.apache.batik.transcoder@default:default"/>
+        <setEntry value="org.apache.batik.util*1.9.1.v20180703-1553@default:default"/>
+        <setEntry value="org.apache.batik.util.gui@default:default"/>
+        <setEntry value="org.apache.batik.xml@default:default"/>
+        <setEntry value="org.apache.commons.codec@default:default"/>
+        <setEntry value="org.apache.commons.io@default:default"/>
+        <setEntry value="org.apache.commons.jxpath@default:default"/>
+        <setEntry value="org.apache.commons.logging@default:default"/>
+        <setEntry value="org.apache.felix.gogo.runtime@default:default"/>
+        <setEntry value="org.apache.felix.scr@1:true"/>
+        <setEntry value="org.apache.xalan@default:default"/>
+        <setEntry value="org.apache.xerces@default:default"/>
+        <setEntry value="org.apache.xml.resolver@default:default"/>
+        <setEntry value="org.apache.xml.serializer@default:default"/>
+        <setEntry value="org.apache.xmlgraphics@default:default"/>
+        <setEntry value="org.eclipse.ant.core@default:default"/>
+        <setEntry value="org.eclipse.birt.core@default:default"/>
+        <setEntry value="org.eclipse.birt.data.aggregation@default:default"/>
+        <setEntry value="org.eclipse.birt.data@default:default"/>
+        <setEntry value="org.eclipse.birt.report.data.adapter@default:default"/>
+        <setEntry value="org.eclipse.birt.report.engine.emitter.config.excel@default:default"/>
+        <setEntry value="org.eclipse.birt.report.engine.emitter.config.pdf@default:default"/>
+        <setEntry value="org.eclipse.birt.report.engine.emitter.config@default:default"/>
+        <setEntry value="org.eclipse.birt.report.engine.emitter.pdf@default:default"/>
+        <setEntry value="org.eclipse.birt.report.engine.fonts@default:default"/>
+        <setEntry value="org.eclipse.birt.report.engine.script.javascript@default:default"/>
+        <setEntry value="org.eclipse.birt.report.engine@default:default"/>
+        <setEntry value="org.eclipse.birt.report.model@default:default"/>
+        <setEntry value="org.eclipse.compare.core@default:default"/>
+        <setEntry value="org.eclipse.compare@default:default"/>
+        <setEntry value="org.eclipse.core.commands@default:default"/>
+        <setEntry value="org.eclipse.core.contenttype@default:default"/>
+        <setEntry value="org.eclipse.core.databinding.observable@default:default"/>
+        <setEntry value="org.eclipse.core.databinding.property@default:default"/>
+        <setEntry value="org.eclipse.core.databinding@default:default"/>
+        <setEntry value="org.eclipse.core.expressions@default:default"/>
+        <setEntry value="org.eclipse.core.filebuffers@default:default"/>
+        <setEntry value="org.eclipse.core.filesystem.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.core.filesystem@default:default"/>
+        <setEntry value="org.eclipse.core.jobs@default:default"/>
+        <setEntry value="org.eclipse.core.net.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.core.net@default:default"/>
+        <setEntry value="org.eclipse.core.resources.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.core.resources@default:default"/>
+        <setEntry value="org.eclipse.core.runtime@default:true"/>
+        <setEntry value="org.eclipse.core.variables@default:default"/>
+        <setEntry value="org.eclipse.datatools.connectivity.oda.consumer@default:default"/>
+        <setEntry value="org.eclipse.datatools.connectivity.oda.profile@default:default"/>
+        <setEntry value="org.eclipse.datatools.connectivity.oda@default:default"/>
+        <setEntry value="org.eclipse.datatools.connectivity@default:default"/>
+        <setEntry value="org.eclipse.e4.core.commands@default:default"/>
+        <setEntry value="org.eclipse.e4.core.contexts@default:default"/>
+        <setEntry value="org.eclipse.e4.core.di.annotations@default:default"/>
+        <setEntry value="org.eclipse.e4.core.di.extensions.supplier@default:default"/>
+        <setEntry value="org.eclipse.e4.core.di.extensions@default:default"/>
+        <setEntry value="org.eclipse.e4.core.di@default:default"/>
+        <setEntry value="org.eclipse.e4.core.services@default:default"/>
+        <setEntry value="org.eclipse.e4.emf.xpath@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.bindings@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.css.core@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt.theme@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.css.swt@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.di@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.dialogs@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.ide@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.model.workbench@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.services@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.widgets@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.addons.swt@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.renderers.swt@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.workbench.swt@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.workbench3@default:default"/>
+        <setEntry value="org.eclipse.e4.ui.workbench@default:default"/>
+        <setEntry value="org.eclipse.emf.common@default:default"/>
+        <setEntry value="org.eclipse.emf.ecore.change@default:default"/>
+        <setEntry value="org.eclipse.emf.ecore.xmi@default:default"/>
+        <setEntry value="org.eclipse.emf.ecore@default:default"/>
+        <setEntry value="org.eclipse.equinox.app@default:default"/>
+        <setEntry value="org.eclipse.equinox.bidi@default:default"/>
+        <setEntry value="org.eclipse.equinox.common@2:true"/>
+        <setEntry value="org.eclipse.equinox.event@default:default"/>
+        <setEntry value="org.eclipse.equinox.p2.core@default:default"/>
+        <setEntry value="org.eclipse.equinox.p2.engine@default:default"/>
+        <setEntry value="org.eclipse.equinox.p2.metadata.repository@default:default"/>
+        <setEntry value="org.eclipse.equinox.p2.metadata@default:default"/>
+        <setEntry value="org.eclipse.equinox.p2.repository@default:default"/>
+        <setEntry value="org.eclipse.equinox.preferences@default:default"/>
+        <setEntry value="org.eclipse.equinox.region@default:false"/>
+        <setEntry value="org.eclipse.equinox.registry@default:default"/>
+        <setEntry value="org.eclipse.equinox.security.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.equinox.security@default:default"/>
+        <setEntry value="org.eclipse.equinox.transforms.hook@default:false"/>
+        <setEntry value="org.eclipse.equinox.weaving.hook@default:false"/>
+        <setEntry value="org.eclipse.help@default:default"/>
+        <setEntry value="org.eclipse.jdt.annotation*2.2.400.v20191120-1313@default:default"/>
+        <setEntry value="org.eclipse.jface.databinding@default:default"/>
+        <setEntry value="org.eclipse.jface.text@default:default"/>
+        <setEntry value="org.eclipse.jface@default:default"/>
+        <setEntry value="org.eclipse.ltk.core.refactoring@default:default"/>
+        <setEntry value="org.eclipse.ltk.ui.refactoring@default:default"/>
+        <setEntry value="org.eclipse.osgi.compatibility.state@default:false"/>
+        <setEntry value="org.eclipse.osgi.services@default:default"/>
+        <setEntry value="org.eclipse.osgi.util@default:default"/>
+        <setEntry value="org.eclipse.osgi@-1:true"/>
+        <setEntry value="org.eclipse.swt.win32.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.swt@default:default"/>
+        <setEntry value="org.eclipse.team.core@default:default"/>
+        <setEntry value="org.eclipse.team.ui@default:default"/>
+        <setEntry value="org.eclipse.text@default:default"/>
+        <setEntry value="org.eclipse.ui.editors@default:default"/>
+        <setEntry value="org.eclipse.ui.forms@default:default"/>
+        <setEntry value="org.eclipse.ui.ide.application@default:default"/>
+        <setEntry value="org.eclipse.ui.ide@default:default"/>
+        <setEntry value="org.eclipse.ui.navigator.resources@default:default"/>
+        <setEntry value="org.eclipse.ui.navigator@default:default"/>
+        <setEntry value="org.eclipse.ui.trace@default:default"/>
+        <setEntry value="org.eclipse.ui.views.properties.tabbed@default:default"/>
+        <setEntry value="org.eclipse.ui.views@default:default"/>
+        <setEntry value="org.eclipse.ui.win32@default:false"/>
+        <setEntry value="org.eclipse.ui.workbench.texteditor@default:default"/>
+        <setEntry value="org.eclipse.ui.workbench@default:default"/>
+        <setEntry value="org.eclipse.ui@default:default"/>
+        <setEntry value="org.eclipse.urischeme@default:default"/>
+        <setEntry value="org.hamcrest.core@default:default"/>
+        <setEntry value="org.junit@default:default"/>
+        <setEntry value="org.mozilla.javascript@default:default"/>
+        <setEntry value="org.tukaani.xz@default:default"/>
+        <setEntry value="org.w3c.css.sac@default:default"/>
+        <setEntry value="org.w3c.dom.events@default:default"/>
+        <setEntry value="org.w3c.dom.smil@default:default"/>
+        <setEntry value="org.w3c.dom.svg.extension@default:false"/>
+        <setEntry value="org.w3c.dom.svg@default:default"/>
+        <setEntry value="org.w3c.sac@default:default"/>
+    </setAttribute>
+    <setAttribute key="selected_workspace_bundles">
+        <setEntry value="test.wordbreak@default:default"/>
+    </setAttribute>
+    <booleanAttribute key="show_selected_only" value="false"/>
+    <booleanAttribute key="tracing" value="false"/>
+    <booleanAttribute key="useCustomFeatures" value="false"/>
+    <booleanAttribute key="useDefaultConfig" value="true"/>
+    <booleanAttribute key="useDefaultConfigArea" value="true"/>
+    <booleanAttribute key="useProduct" value="false"/>
+    <booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

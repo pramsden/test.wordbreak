@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.16.0.v202006301151</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <data-sources>
+        <script-data-source name="Data Source" id="36"/>
+    </data-sources>
+    <data-sets>
+        <script-data-set name="Data Set" id="37">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Col1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Col2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">Col3</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">Col4</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">Col5</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">Col6</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Col1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Col2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Col3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Col4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Col5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Col6</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Col1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Col2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Col3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">Col4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">Col5</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">Col6</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[importPackage(Packages.test.wordbreak.report);
+var myDataSet = new DataSet();
+var myData = myDataSet.getList();
+myIterator = myData.iterator();]]></method>
+            <method name="fetch"><![CDATA[if(myIterator.hasNext()){
+	var item = myIterator.next();
+	row["Col1"] = item.getCol1();
+	row["Col2"] = item.getCol2();
+	row["Col3"] = item.getCol3();
+	row["Col4"] = item.getCol4();
+	row["Col5"] = item.getCol5();
+	return true;
+} else {
+	return false;
+}]]></method>
+            <method name="close"><![CDATA[myDataSet = null;
+myArrayList = null;
+myIterator = null;
+node = null;]]></method>
+        </script-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">a4</property>
+            <property name="orientation">landscape</property>
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid id="4">
+            <property name="fontFamily">sans-serif</property>
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">Col1</property>
+                    <text-property name="displayName">Col1</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Col1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Col2</property>
+                    <text-property name="displayName">Col2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Col2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Col3</property>
+                    <text-property name="displayName">Col3</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Col3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Col4</property>
+                    <text-property name="displayName">Col4</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Col4"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Col5</property>
+                    <text-property name="displayName">Col5</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Col5"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Col6</property>
+                    <text-property name="displayName">Col6</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Col6"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="5">
+                <property name="width">15mm</property>
+            </column>
+            <column id="6">
+                <property name="width">30mm</property>
+            </column>
+            <column id="7">
+                <property name="width">45mm</property>
+            </column>
+            <column id="8">
+                <property name="width">60mm</property>
+            </column>
+            <column id="9"/>
+            <row id="10">
+                <cell id="11">
+                    <property name="colSpan">4</property>
+                    <property name="rowSpan">1</property>
+                    <label id="34">
+                        <property name="fontWeight">bold</property>
+                        <text-property name="text">Data Cells</text-property>
+                    </label>
+                </cell>
+                <cell id="15"/>
+            </row>
+            <row id="16">
+                <cell id="17">
+                    <data id="38">
+                        <property name="resultSetColumn">Col1</property>
+                    </data>
+                </cell>
+                <cell id="18">
+                    <data id="39">
+                        <property name="resultSetColumn">Col2</property>
+                    </data>
+                </cell>
+                <cell id="19">
+                    <data id="40">
+                        <property name="resultSetColumn">Col3</property>
+                    </data>
+                </cell>
+                <cell id="20">
+                    <data id="41">
+                        <property name="resultSetColumn">Col4</property>
+                    </data>
+                </cell>
+                <cell id="21">
+                    <data id="42">
+                        <property name="resultSetColumn">Col5</property>
+                    </data>
+                </cell>
+            </row>
+            <row id="22">
+                <cell id="23">
+                    <property name="colSpan">4</property>
+                    <property name="rowSpan">1</property>
+                    <label id="35">
+                        <property name="fontWeight">bold</property>
+                        <text-property name="text">Dynamic text cells</text-property>
+                    </label>
+                </cell>
+                <cell id="27"/>
+            </row>
+            <row id="28">
+                <cell id="29">
+                    <text-data id="43">
+                        <expression name="valueExpr">row["Col1"]</expression>
+                        <property name="contentType">html</property>
+                    </text-data>
+                </cell>
+                <cell id="30">
+                    <text-data id="44">
+                        <expression name="valueExpr">row["Col2"]</expression>
+                        <property name="contentType">html</property>
+                    </text-data>
+                </cell>
+                <cell id="31">
+                    <text-data id="45">
+                        <expression name="valueExpr">row["Col3"]</expression>
+                        <property name="contentType">html</property>
+                    </text-data>
+                </cell>
+                <cell id="32">
+                    <text-data id="46">
+                        <expression name="valueExpr">row["Col4"]</expression>
+                        <property name="contentType">html</property>
+                    </text-data>
+                </cell>
+                <cell id="33">
+                    <text-data id="47">
+                        <expression name="valueExpr">row["Col5"]</expression>
+                        <property name="contentType">html</property>
+                    </text-data>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>

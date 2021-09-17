@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target includeMode="feature" name="Test Wordbreak Target" sequenceNumber="24">
+<locations>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+		<repository location="https://download.eclipse.org/releases/2020-03"/>
+		<unit id="org.eclipse.equinox.sdk.feature.group" version="3.20.100.v20200303-1901"/>
+		<unit id="org.eclipse.platform.sdk" version="4.15.0.I20200305-0155"/>
+		<unit id="org.eclipse.rcp.feature.group" version="4.15.0.v20200305-0155"/>
+		<unit id="org.eclipse.rcp.sdk.id" version="4.15.0.I20200305-0155"/>
+		<unit id="org.eclipse.rcp.source.feature.group" version="4.15.0.v20200305-0155"/>
+		<unit id="org.eclipse.wst.common_core.feature.feature.group" version="3.10.100.v201904082145"/>
+		<unit id="org.eclipse.pde.feature.group" version="3.14.300.v20200305-0155"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+		<repository location="https://download.eclipse.org/eclipse/updates/4.8/"/>
+		<unit id="org.eclipse.swt.tools.feature.feature.group" version="3.107.0.v20180516-2110"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+		<repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20200224183213/repository"/>
+		<unit id="org.junit" version="0.0.0"/>
+		<unit id="javax.xml.soap" version="0.0.0"/>
+		<unit id="javax.xml.ws" version="0.0.0"/>
+		<unit id="javax.xml.bind" version="0.0.0"/>
+		<unit id="javax.jws" version="0.0.0"/>
+		<unit id="javax.activation" version="0.0.0"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<repository location="https://sourceforge.net/projects/birt/files/release/4.16.0/"/>
+		<unit id="org.eclipse.birt.osgi.runtime.feature.group" version="4.16.0.v202006301151"/>
+	</location>
+</locations>
+</target>
